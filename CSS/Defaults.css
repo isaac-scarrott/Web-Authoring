@@ -1,0 +1,115 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#White-Logo {
+    width: 6%;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+#Nav-Bar-Text {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.3vw;
+}
+
+#Nav-Bar-Text li {
+    float: left;
+    white-space: nowrap;
+}
+
+#Nav-Bar-Text li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins:300', sans-serif;
+    padding: 1.7em 5em;
+    transition: all .2s ease-in-out;
+}
+
+/*Will perform this action on hover*/
+#Nav-Bar-Text li a:hover {
+    -webkit-transform: scale(1.5);
+}
+
+#Cart-Pop-Out-Button {
+    position: fixed;
+    right: -5px;
+    width: 4vw;
+    height: 10vh;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    top: 40vh;
+    
+}
+
+#Cart-Pop-Out-Button p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3vh;
+    font-size: 2vw;
+}
+
+#mySidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed; 
+    z-index: 100000000; 
+    top: 0;
+    right: -255px;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s; 
+    background-color: white;
+    opacity: 0.8;
+/*    compaitble on multiple browsers*/
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+
+/*will perform this on click*/
+#Cart-Pop-Out-Button:target #Rotating-Arrow{
+    transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+}
+
+#Cart-Info {
+    font-family: 'Poppins:300', sans-serif;
+}
+
+#Cart-Info p {
+    font-size: 20px;  
+    padding-left: 1vw;
+}
+
+#Cart-Items-Side, #Total-Price-Text {
+    font-size: 15px !important; 
+    
+}
+
+#Total-Price-Text {
+    position: fixed;
+    font-weight: bold;
+    bottom: 0px;
+}
+
+.quan-down {
+    cursor: pointer;
+}
+
+
+

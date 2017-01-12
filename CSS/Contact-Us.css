@@ -1,0 +1,63 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Black-Logo {
+    width: 6%;
+    height: auto;
+    float: left;
+    display: block;
+}
+
+#Nav-Bar-Text {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1.3vw;
+}
+
+#Nav-Bar-Text li {
+    float: left;
+    white-space: nowrap;
+}
+
+#Nav-Bar-Text li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins:300', sans-serif;
+    padding: 1.7em 5em;
+    transition: all .2s ease-in-out;
+}
+
+#Nav-Bar-Text li a:hover {
+/*    To support multiple broswers*/
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#Title {
+    font-weight: 900;
+    font-size: 27px !important;
+}
+
+#FAQs {
+    font-family: 'Poppins:300', sans-serif;
+    
+    padding-left: 2vw;
+}
+
+#FAQs #Question {
+    font-weight: bold;   
+}
+
+

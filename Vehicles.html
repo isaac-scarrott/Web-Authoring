@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lincoln Motors - Vehicles</title>
+    <!--Loads the font from the url-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
+    <!--Loads the selected css files-->
+    <link rel="stylesheet" type="text/css" href="CSS/Vehicles.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Defaults.css">
+    <!--For the icon in the tab-->
+    <link rel="icon" href="Images/Homepage/Lincoln-Motors-Logo-Black.png">
+    <!--Loads the selected javascript files-->
+    <script type="text/javascript" src="Javascript/jq.js"></script>
+    <script type="text/javascript" src="Javascript/Vehicles.js"></script>
+    <script type="text/javascript" src="Javascript/Cart.js"></script>
+    <script type="text/javascript" src="Javascript/Defaults.js"></script>
+</head>
+
+<body>
+    <!--Used for the slideshow of images on the page-->
+    <figure id="slideshow">
+        <figure>
+            <img src="Images/Vehicles/Slideshow/Banner1.jpg" class="active" alt="Failed to Load Image" alt="Failed to Load Image">
+        </figure>
+        <figure>
+            <img src="Images/Vehicles/Slideshow/Banner2.jpg" alt="Failed to Load Image" alt="Failed to Load Image">
+        </figure>
+        <figure>
+            <img src="Images/Vehicles/Slideshow/Banner3.jpg" alt="Failed to Load Image">
+        </figure>
+    </figure>
+    <!--Navigation bar-->
+    <nav>
+        <img src="Images/Homepage/Lincoln-Motors-Logo-White.png" id="White-Logo" alt="Failed to Load Image">
+        <ul id="Nav-Bar-Text">
+            <li><a href="index.html#click">Home</a></li>
+            <li><a href="Vehicles.html">Vehicles</a></li>
+            <li><a href="Coming%20Soon.html">Promotions</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Contact-Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--Used to fade in and fade out the different makes of car-->
+    <figure class="container car makes" id="Car-Makes">
+        <a href="#Mercedes-Div">Cars</a>
+        <a href="#Boats-Div">Boats</a>
+        <a href="#Jetski-Div">Jet Ski</a>
+        <a href="#Tractor-Div">Tractor</a>
+        <a href="#Motorbikes-Div">Motorbikes</a>
+    </figure>
+    <!--All the items that are out of view from the user when the webpage initally loads-->
+    <main id="Hidden-Items">
+        <!--Mercerdes Cars-->
+        <section id="Mercedes-Div" class="Car-Container">
+            <!--CLA Class-->
+            <section id="cla" class="Left">
+                <article id="cla-add" class="text">
+                    <a href="Customize-CLA.html">
+                        <figure class="Find-Out-More" id="Add-CLA">
+                            <p>Customize</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="cla-add-Title">Mercedes Benz CLA</span> - <span id="cla-add-Price">£25998</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+                <img src="Images/Vehicles/Mercedes/Mercedes-CLA-1.jpg" alt="Failed to Load Image">
+            </section>
+            <!--A Class-->
+            <section id="a" class="Right">
+                <img src="Images/Vehicles/Mercedes/Mercedes-A-1.jpg" alt="Failed to Load Image">
+                <article id="a-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="a-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="a-add-Title">Mercedes Benz A-Class</span> - <span id="a-add-Price">£19998</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+            </section>
+            <!--C Class-->
+            <section id="c" class="Left">
+                <img src="Images/Vehicles/Mercedes/Mercedes-C-1.jpg" alt="Failed to Load Image">
+                <article id="c-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="c-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="c-add-Title">Mercedes Benz C-Class</span> - <span id="c-add-Price">£28999</span></p>
+                    <p id="Description">Find out more about the Mercedes-Benz A-Class. Compare specifications, configure, view offers, prices, book a test drive or download an e-brochure.</p>
+                </article>
+            </section>
+        </section>
+        <!--Boats-->
+        <section id="Boats-Div" class="Car-Container" style="display: none;">
+            <!--Ssh Maritime 190-->
+            <section id="Maritime" class="Left">
+                <article id="Maritime-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="Maritime-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="Maritime-add-Title">Ssh Maritime 190</span> - <span id="Maritime-add-Price">£433674</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+                <img src="Images/Vehicles/Boats/maritime.png" alt="Failed to Load Image">
+            </section>
+            <!--Custom Gigayacht-->
+            <section id="Gigayacht" class="Right">
+                <img src="Images/Vehicles/Boats/gigayacht.png" alt="Failed to Load Image">
+                <article id="Gigayacht-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="Gigayacht-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="Gigayacht-add-Title">Custom Gigayacht</span> - <span id="Gigayacht-add-Price">£303542</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+            </section>
+            <!--2009 Custom-->
+            <section id="2009" class="Left">
+                <img src="Images/Vehicles/Boats/2009.png" alt="Failed to Load Image">
+                <article id="2009-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="2009-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="2009-add-Title">2009 Custom</span> - <span id="a8-add-Price">£8157</span></p>
+                    <p id="Description">Find out more about the Mercedes-Benz A-Class. Compare specifications, configure, view offers, prices, book a test drive or download an e-brochure.</p>
+                </article>
+            </section>
+        </section>
+        <!--Jetskis-->
+        <section id="Jetski-Div" class="Car-Container" style="display: none;">
+            <!--Sea-doo - SPARK-->
+            <section id="S" class="Left">
+                <article id="s-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="s-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title">Sea-doo - SPARK - Coming Soon</p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+                <img src="Images/Vehicles/Jetski/Sea-doo---SPARK.png" alt="Failed to Load Image">
+            </section>
+            <!--Yamaha - FXSHO Cruiser-->
+            <section id="X" class="Right">
+                <img src="Images/Vehicles/Jetski/136664_-_photo_4_1467634866_img.png" alt="Failed to Load Image">
+                <article id="x-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="x-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title">Yamaha - FXSHO Cruiser - Coming Soon</p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+            </section>
+            <!--Yamaha WaveRunner - GP1800-->
+            <section id="3" class="Left">
+                <img src="Images/Vehicles/Jetski/Yamaha%20WaveRunner%20-%20GP1800.jpg" alt="Failed to Load Image">
+                <article id="3-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="3-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title">Yamaha WaveRunner - GP1800 - Coming Soon</p>
+                    <p id="Description">Find out more about the Mercedes-Benz A-Class. Compare specifications, configure, view offers, prices, book a test drive or download an e-brochure.</p>
+                </article>
+            </section>
+        </section>
+        <!--Tractor-->
+        <section id="Tractor-Div" class="Car-Container" style="display: none;">
+            <!--HOLLAND T7.210-->
+            <section id="Polo" class="Left">
+                <article id="polo-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="polo-add">
+                            <p>Add To Basket</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="polo-add-Title">HOLLAND T7.210</span> - <span id="polo-add-Price">£11987</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+                <img src="Images/Vehicles/Tractor/HOLLAND-T7.210.png" alt="Failed to Load Image">
+            </section>
+        </section>
+        <!--Motorbikes-->
+        <section id="Motorbikes-Div" class="Car-Container" style="display: none;">
+            <!--Diavel-->
+            <section id="Mustang" class="Left">
+                <article id="mustang-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="mustang-add">
+                            <p>Find Out More</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="mustang-add-Title">Ducati Diavel</span> - <span id="mustang-add-Price">£31984</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+                <img src="Images/Vehicles/Motorbikes/Diavel.jpg" alt="Failed to Load Image">
+            </section>
+            <!--Hypermotart-->
+            <section id="Sport" class="Right">
+                <img src="Images/Vehicles/Motorbikes/Hypermotard.jpg" alt="Failed to Load Image">
+                <article id="sport-add" class="text">
+                    <a>
+                        <figure class="Add-To-Basket" id="sport-add">
+                            <p>Find Out More</p>
+                        </figure>
+                    </a>
+                    <p id="Title"><span id="sport-add-Title">Ducati Hypermotart</span> - <span id="sport-add-Price">£59460</span></p>
+                    <p id="Description">Discover the Mercedes-Benz CLA Coupe & Sports model lines, with their stunning looks & high performance. Find information on price and specification.</p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <!--Shopping cart side nav-->
+    <aside id="mySidenav" class="sidenav">
+        <article id="Cart-Info">
+            <p>Shopping Basket</p>
+            <span id="Cart-Items"></span>
+            <p id="Total-Price-Text">Total Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;£<span id="Total-Price">0</span></p>
+        </article>
+        <!--Used to open and close the side nav-->
+        <aside id="Cart-Pop-Out-Button" class="sidenav">
+            <p id="Rotating-Arrow">◄</p>
+        </aside>
+    </aside>
+</body>
+
+</html>

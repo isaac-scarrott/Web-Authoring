@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lincoln Motors</title>
+    <!--    Gets and loads the font for the page from the website-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
+    <!--    Used to link all the style sheets to the webpage-->
+    <link rel="stylesheet" type="text/css" href="CSS/Defaults.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Homepage.css">
+    <link rel="icon" href="Images/Homepage/Lincoln-Motors-Logo-Black.png">
+    <script type="text/javascript" src="Javascript/jq.js"></script>
+    <!--    Used to link all the javascript files to the webpage-->
+    <script type="text/javascript" src="Javascript/Homepage.js"></script>
+    <script type="text/javascript" src="Javascript/Cart.js"></script>
+    <script type="text/javascript" src="Javascript/Defaults.js"></script>
+</head>
+
+<body>
+    <!--    Used for a pop up when the webpage first loads-->
+    <a href="#click" id="Close-Welcome">
+        <section class="modal-Popup" id="click">
+            <figure class="modal-container-Popup"><img src="Images/Homepage/Lincoln-Motors-Logo-Black.png" id="Black-Logo" alt="Black Logo">
+                <p id="Modal-Welcome-Text">Welcome to Lincoln Motors</p>
+                <p id="Modal-Click-Text">Click Anywhere to Continue</p>
+            </figure>
+        </section>
+    </a>
+    <!--    All of the elements at the top of the page-->
+    <header>
+        <img src="Images/Homepage/Lincoln-Motors-Logo-White.png" id="White-Logo" alt="White Logo">
+        <!--        Used for layout purposes-->
+        <div id="Place-Holder">|</div>
+        <!--This is where the navigation bar is-->
+        <nav>
+            <ul id="Nav-Bar-Text">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Vehicles.html">Vehicles</a></li>
+                <li><a href="Coming%20Soon.html">Promotions</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Contact-Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--A shopping cart pop out-->
+    <aside id="mySidenav" class="sidenav">
+        <article id="Cart-Info">
+            <p>Shopping Basket</p>
+            <span id="Cart-Items"></span>
+            <p id="Total-Price-Text">Total Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;£<span id="Total-Price">0</span></p>
+        </article>
+        <!--This is what you press to open and close the shopping cart-->
+        <aside id="Cart-Pop-Out-Button" class="sidenav">
+            <p id="Rotating-Arrow">◄</p>
+        </aside>
+    </aside>
+    <!--Used to make the page double the size-->
+    <section id="Black-Background">
+        <!--        Youtube video of a commercial-->
+        <iframe width="1024" height="576" src="https://www.youtube.com/embed/-DndUqALw7U" allowfullscreen></iframe>
+    </section>
+</body>
+</html>

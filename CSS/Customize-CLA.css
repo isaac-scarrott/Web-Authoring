@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+#Fixed img {
+    width: 60vw;
+    height: 33vw;
+    margin-left: 19.7vw;
+    border: 0.3vw solid white;
+    border-radius: 3px
+}
+
+#Fixed p {
+    color: white;
+    font-family: 'Poppins:300', sans-serif;
+}
+
+#Fixed article, #Fixed figure  {
+    float: left;
+    position: fixed;
+    margin-left: 1vw;
+}
+
+#Car-Name {
+    font-weight: 900;
+}
+
+#Colour-Picker {
+    width: 60vw;
+    margin-left: 21vw;
+    margin-top: 34vw;
+}
+
+#Wheel-Picker {
+    position: absolute;
+    margin-left:-47px;
+    left:47%;
+    padding-top: 1vh;
+}
+
+#Colour-Picker img, #Wheel-Picker img {
+    width: 5.5vw;
+    height: 5.5vw;
+    margin-left: 1.35vw;
+    border: 1px solid white;
+    border-radius: 5px
+}
+
+#cla-add {
+    top: 60vh;
+    float: right;
+    background-color: #9B9B9B;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    border-radius: 0.5vw;
+    box-shadow: 3px 3px 1.5px #888888;
+    cursor: pointer;
+    z-index: 50000000;
+}
+
+#cla-add:hover {
+    background-color: #0099DA;
+}
+
+#cla-add p {
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    color: white;
+}

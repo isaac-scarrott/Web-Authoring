@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lincoln Motors - Vehicles</title>
+    <!--Used to load the correct fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,700" rel="stylesheet">
+    <!--Used to load the selected css files-->
+    <link rel="stylesheet" type="text/css" href="CSS/Customize-CLA.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Defaults.css">
+    <!--For the icon in the tab-->
+    <link rel="icon" href="Images/Homepage/Lincoln-Motors-Logo-Black.png">
+    <!--Used to load the selected css files-->
+    <script type="text/javascript" src="Javascript/jq.js"></script>
+    <script type="text/javascript" src="Javascript/Customize-CLA.js"></script>
+    <script type="text/javascript" src="Javascript/Cart.js"></script>
+    <script type="text/javascript" src="Javascript/Defaults.js"></script>
+</head>
+
+<body>
+    <!--The navigation bar at the top-->
+    <nav>
+        <img src="Images/Homepage/Lincoln-Motors-Logo-White.png" id="White-Logo" alt="White Logo">
+        <ul id="Nav-Bar-Text">
+            <li><a href="index.html#click">Home</a></li>
+            <li><a href="Vehicles.html">Vehicles</a></li>
+            <li><a href="Coming%20Soon.html">Promotions</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Contact-Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--For all of the items that are fixed and will not move when scrolling-->
+    <main id="Fixed">
+        <!--Displays the infomation about the car, will change as the user customizes the car-->
+        <article>
+            <p id="Car-Name">Mercedes Benz CLA</p>
+            <p id="Car-Price">£25998</p>
+            <p id="Car-Colour">Magno Polar Silver</p>
+            <p id="Car-Wheels">Himilaya Grey Wheels</p>
+        </article>
+        <!--        Used to add the car to the basket-->
+        <figure class="Add-To-Basket" id="cla-add">
+            <p>Add To Basket</p>
+        </figure>
+        <!--        Used to display the image of the customized car-->
+        <figure id="Car">
+            <img src="Images/Customize-CLA/Wheels-1/Mango-Polar-Silver.png" alt="Customized Car">
+        </figure>
+    </main>
+    <!--Used to pick the colour of the car-->
+    <article id="Colour-Picker">
+        <img src="Images/Customize-CLA/Colour-Selector/Mango-Polar-Silver.jpg" id="Mango-Polar-Silver" alt="Magno Polar Silver">
+        <img src="Images/Customize-CLA/Colour-Selector/Blue.jpg" id="Blue" alt="Blue">
+        <img src="Images/Customize-CLA/Colour-Selector/Black.jpg" id="Black" alt="Black">
+        <img src="Images/Customize-CLA/Colour-Selector/Grey.jpg" id="Grey" alt="Grey">
+        <img src="Images/Customize-CLA/Colour-Selector/Brown.jpg" id="Brown" alt="Brown">
+        <img src="Images/Customize-CLA/Colour-Selector/Silver.jpg" id="Silver" alt="Silver">
+        <img src="Images/Customize-CLA/Colour-Selector/White.jpg" id="White" alt="White">
+        <img src="Images/Customize-CLA/Colour-Selector/Red.jpg" id="Red" alt="Red">
+    </article>
+    <!--Used to pick the wheel of the car-->
+    <article id="Wheel-Picker">
+        <img src="Images/Customize-CLA/Wheel-Selector/Wheels-1.jpg" id="Wheels-1" alt="Grey Wheels">
+        <img src="Images/Customize-CLA/Wheel-Selector/Wheels-2.jpg" id="Wheels-2" alt="White Wheels">
+    </article>
+    <!--Side nav that is the shopping cart-->
+    <aside id="mySidenav" class="sidenav">
+        <article id="Cart-Info">
+            <p>Shopping Basket</p>
+            <span id="Cart-Items"></span>
+            <p id="Total-Price-Text">Total Price &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;£<span id="Total-Price">0</span></p>
+        </article>
+        <!--Used to show and hide the shopping cart-->
+        <aside id="Cart-Pop-Out-Button" class="sidenav">
+            <p id="Rotating-Arrow">◄</p>
+        </aside>
+    </aside>
+</body>
+
+</html>

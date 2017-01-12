@@ -1,0 +1,179 @@
+body {
+    background-color: grey;
+    background-size: 180% !important;
+    background-image: url(../Images/About-Us/Lincoln-Motors-About-Us-Background.png);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#Page-Header {
+    font-family: 'Poppins:300', sans-serif;
+    padding-top: 6%;
+}
+
+#Container1 {
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 13.5%;
+    font-family: 'Poppins:300', sans-serif;
+    opacity: 0;
+}
+
+#Container2 {
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 14%;
+    font-family: 'Poppins:300', sans-serif;
+}
+
+#Container3,
+#Container4 {
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 14%;
+    font-family: 'Poppins:300', sans-serif;
+}
+
+#Container5 {
+    margin-left: 5%;
+    margin-right: 20%;
+    margin-top: 12.5%;
+    font-family: 'Poppins:300', sans-serif;
+    padding-bottom: 22%;
+}
+
+#Images {
+    float: left;
+    margin-right: 3%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+#Text {
+    color: white;
+    padding-top: 7.8%;
+}
+
+#Name {
+    font-size: 1.8vw;
+}
+
+#Desc {
+    font-weight: 100;
+    font-style: italic;
+/*    font-size: 1.2vw*/
+}
+
+#Links {
+    position: fixed;
+    padding-left: 83%;
+    font-family: 'Poppins:300', sans-serif;
+    color: white;
+    font-size: 1.3vw;
+    top: 50%;
+    transform: translate(0, -50%);
+    opacity: 0;
+}
+
+#fixed {
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+
+#MD-Link {
+    opacity: 0;
+}
+
+#Director-Link,
+#SM-Link,
+#SA-Link,
+#Valeter-Link {
+    float: none;
+    display: block;
+    clear: both;
+    margin-top: 25%;
+    opacity: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#Links a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#Links li {
+    margin: 40px 0;
+    opacity: 0.6;
+}
+
+#Welcome {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+/*    Support multiple browsers*/
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Poppins:300', sans-serif;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#Title {
+    font-size: 2.0vw;
+}
+
+#Subtitle {
+    font-size: 1.2vw;
+    font-weight: 100;
+}
+
+resultitem:hover {
+    background: #59f;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*Smaller sized devices*/
+@media screen and (max-width: 950px) {
+    body {
+        background: url(../Images/About-Us/Mobile-Background-Image.png);
+    }
+}
+
+@media screen and (max-width: 685px) {
+    body {
+        background: url(../Images/About-Us/Mobile-Background-Image.png);
+        background-color: grey;
+        background-size: 180% !important;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
+    
+    #Images {
+        float: none;
+        height: 50vw;
+        
+    }
+    
+    #Container1, #Container2, #Container3, #Container4, #Container5 {
+        margin-top: 8%;
+    }
+    
+    #Name {
+    font-size: 22px;
+}
+    #Desc {
+        font-size: 15px;
+    }
+    
+    
+}
