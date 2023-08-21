@@ -1,3 +1,3 @@
 # Web-Authoring
 
-This work is not to be plagiarized as it is an academic offense 
+1st year university project. Bad code
